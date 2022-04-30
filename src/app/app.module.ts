@@ -11,7 +11,7 @@ import { BasketComponent } from './basket/basket.component';
 import { ContactComponent } from './contact/contact.component';
 import { AboutComponent } from './about/about.component';
 import { CategoriesComponent } from './categories/categories.component';
-import { FiltersComponent } from './filters/filters.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +24,7 @@ import { FiltersComponent } from './filters/filters.component';
     ContactComponent,
     AboutComponent,
     CategoriesComponent,
-    FiltersComponent
+    HomeComponent
   ],
   imports: [
     BrowserModule,
